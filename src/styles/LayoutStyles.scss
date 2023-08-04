@@ -1,0 +1,68 @@
+//LAYOUT STYLES
+.layout {
+    display: flex;
+    // position: relative;
+}
+
+
+.sidebar {
+    width: 310px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0 0 0 2px whitesmoke;
+    overflow-y: hidden;
+
+
+    @media(max-width: 961px) {
+        width: 280px;
+    }
+
+    @media(max-width: 961px) {
+        width: 240px;
+    }
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    height: 14vh;
+    // box-shadow: 0 0 1.5px rgba(0, 0, 0, .1);
+    z-index: 10000;
+    background: #fff;
+    margin-left: -3px;
+    overflow: hidden;
+
+
+    // @media(max-width: 640px) {
+    //     height: 12vh
+    // }
+
+}
+
+.body {
+    height: 86vh;
+    background-color: #EEF0FA;
+    // opacity: .4;
+    padding: 2rem 1.5rem;
+
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: blue;
+        border-radius: .7rem;
+        height: .4rem;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555
+    }
+}

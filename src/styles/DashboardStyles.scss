@@ -1,0 +1,24 @@
+.card__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 1200px) {
+        flex-direction: column;
+    }
+}
+
+
+.card__bottom__orderslist {
+    width: 420px;
+    height: 740px;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1.2rem;
+
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+
+}

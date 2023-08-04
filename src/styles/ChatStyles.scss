@@ -1,0 +1,49 @@
+.background {
+    background: #FFEAD1;
+    border-radius: .4rem;
+}
+
+
+.line {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .03)
+}
+
+.chat__date {
+    display: flex;
+    justify-content: center;
+    padding: .2rem .5rem;
+    background: #F4F5FA;
+    width: 9rem;
+    margin: 1rem auto;
+    border-radius: .4rem;
+}
+
+.chat__date_2 {
+    display: flex;
+    justify-content: center;
+    padding: .2rem .5rem;
+    background: #F4F5FA;
+    width: 6rem;
+    margin: 1rem auto;
+    border-radius: .4rem;
+}
+
+.round {
+    border-radius: 50%;
+    line-height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.rounding {
+    border-radius: .9rem;
+}
+
+.check {
+    background: transparent;
+    border: none;
+    outline: none;
+}
